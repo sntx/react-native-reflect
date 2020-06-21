@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`t001 Should not stretch single value 1`] = `
+Object {
+  "numColumns": 3,
+}
+`;
+
+exports[`t002 Should stretch array of 1 value 1`] = `
+Array [
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+]
+`;
+
+exports[`t003 Should stretch odd array of 3 values 1`] = `
+Array [
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 4,
+  },
+  Object {
+    "numColumns": 5,
+  },
+  Object {
+    "numColumns": 5,
+  },
+]
+`;
+
+exports[`t004 Should stretch odd array of 5 values 1`] = `
+Array [
+  Object {
+    "numColumns": 2,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 4,
+  },
+  Object {
+    "numColumns": 5,
+  },
+  Object {
+    "numColumns": 6,
+  },
+]
+`;
+
+exports[`t005 Should stretch even array of 2 values 1`] = `
+Array [
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 4,
+  },
+  Object {
+    "numColumns": 4,
+  },
+  Object {
+    "numColumns": 4,
+  },
+]
+`;
+
+exports[`t006 Should stretch even array of 4 values 1`] = `
+Array [
+  Object {
+    "numColumns": 2,
+  },
+  Object {
+    "numColumns": 3,
+  },
+  Object {
+    "numColumns": 4,
+  },
+  Object {
+    "numColumns": 5,
+  },
+  Object {
+    "numColumns": 5,
+  },
+]
+`;
+
+exports[`t007 Should work with array and non-array values 1`] = `
+Array [
+  Object {
+    "breed": "short hair",
+    "info": Object {
+      "prop1": "property 1",
+      "prop2": "property 2",
+    },
+    "specie": "cat",
+  },
+  Object {
+    "breed": "short hair",
+    "info": Object {
+      "prop1": "property 1",
+      "prop2": "property 2",
+    },
+    "specie": "cat",
+  },
+  Object {
+    "breed": "callico",
+    "info": Object {
+      "prop1": "property 1",
+      "prop2": "property 2",
+    },
+    "specie": "cat",
+  },
+  Object {
+    "breed": "callico",
+    "info": Object {
+      "prop1": "property 1",
+      "prop2": "property 2",
+    },
+    "specie": "cat",
+  },
+  Object {
+    "breed": "callico",
+    "info": Object {
+      "prop1": "property 1",
+      "prop2": "property 2",
+    },
+    "specie": "cat",
+  },
+]
+`;

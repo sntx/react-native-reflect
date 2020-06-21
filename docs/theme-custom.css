@@ -1,0 +1,14 @@
+:root {
+  /*
+  --cover-background-image: radial-gradient(
+    ellipse at center 115%,
+    rgba(255, 255, 255, 1),
+    transparent
+  );
+  --cover-background-image: none;
+  --theme-saturation: 0%;
+  --theme-lightness: 100%;
+  */
+  --theme-hue: 20;
+  --cover-background-color: hsl(var(--theme-hue), 100%, 50%);
+}

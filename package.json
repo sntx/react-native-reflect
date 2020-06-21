@@ -1,0 +1,60 @@
+{
+  "name": "react-native-reflect",
+  "description": "Responsive, themeable style system for React Native and React Native Web",
+  "author": "Santiago Ferreira",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "react-native": "lib/rn.js",
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "rollup -c && rollup -c --environment TARGET:react-native",
+    "test": "node_modules/.bin/jest",
+    "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
+    "@types/jquery": "^3.3.38",
+    "@types/lodash": "^4.14.155",
+    "@types/react": "~16.9.23",
+    "@types/react-native": "~0.61.17",
+    "babel-core": "6.26.3",
+    "babel-preset-expo": "~8.1.0",
+    "babel-plugin-external-helpers": "6.22.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "jest-expo": "^37.0.0",
+    "jquery": "^3.5.1",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-web": "~0.11.7",
+    "rollup": "^2.17.1",
+    "rollup-plugin-babel": "3.0.7",
+    "typescript": "~3.8.3"
+  },
+  "jest": {
+    "testTimeout": 50000,
+    "projects": [
+      {
+        "preset": "jest-expo/web",
+        "moduleFileExtensions": [
+          "js",
+          "json",
+          "node",
+          "ts",
+          "tsx"
+        ],
+        "testMatch": [
+          "<rootDir>/../**/__tests__/**/*spec.*s*"
+        ]
+      }
+    ]
+  }
+}

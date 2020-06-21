@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`t001 single style - no breakpoints, breakpoint: 0, windowWidth: 374 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="font-size: 20px; font-weight: bold;"
+>
+  Hello
+</div>
+`;
+
+exports[`t001 single style - no breakpoints, breakpoint: 1, windowWidth: 767 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="font-size: 20px; font-weight: bold;"
+>
+  Hello
+</div>
+`;
+
+exports[`t001 single style - no breakpoints, breakpoint: 2, windowWidth: 1023 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="font-size: 20px; font-weight: bold;"
+>
+  Hello
+</div>
+`;
+
+exports[`t001 single style - no breakpoints, breakpoint: 3, windowWidth: 1679 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="font-size: 20px; font-weight: bold;"
+>
+  Hello
+</div>
+`;
+
+exports[`t001 single style - no breakpoints, breakpoint: 4, windowWidth: 1681 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="font-size: 20px; font-weight: bold;"
+>
+  Hello
+</div>
+`;
+
+exports[`t002 single style - with breakpoints, breakpoint: 0, windowWidth: 374 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="color: rgb(255, 0, 0); font-size: 12px; font-weight: bold; margin-left: 3px; margin-right: 3px; padding-right: 3px;"
+>
+  Hello
+</div>
+`;
+
+exports[`t002 single style - with breakpoints, breakpoint: 1, windowWidth: 767 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="color: rgb(255, 0, 0); font-size: 12px; font-weight: bold; margin-left: 6px; margin-right: 3px; padding-right: 3px;"
+>
+  Hello
+</div>
+`;
+
+exports[`t002 single style - with breakpoints, breakpoint: 2, windowWidth: 1023 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="color: rgb(255, 0, 0); font-size: 16px; font-weight: bold; margin-left: 12px; margin-right: 6px; padding-right: 12px;"
+>
+  Hello
+</div>
+`;
+
+exports[`t002 single style - with breakpoints, breakpoint: 3, windowWidth: 1679 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="color: rgb(255, 0, 0); font-size: 16px; font-weight: bold; margin-left: 24px; margin-right: 12px; padding-right: 48px;"
+>
+  Hello
+</div>
+`;
+
+exports[`t002 single style - with breakpoints, breakpoint: 4, windowWidth: 1681 1`] = `
+<div
+  class="css-text-901oao"
+  dir="auto"
+  style="color: rgb(255, 0, 0); font-size: 16px; font-weight: bold; margin-left: 24px; margin-right: 24px; padding-right: 48px;"
+>
+  Hello
+</div>
+`;
+
+exports[`t003 single style - should merge nested styled() styles, breakpoint: 0, windowWidth: 374 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-bottom: 5px; padding-left: 0px; padding-right: 3px;"
+/>
+`;
+
+exports[`t003 single style - should merge nested styled() styles, breakpoint: 1, windowWidth: 767 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-bottom: 5px; padding-left: 0px; padding-right: 3px;"
+/>
+`;
+
+exports[`t003 single style - should merge nested styled() styles, breakpoint: 2, windowWidth: 1023 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-bottom: 5px; padding-left: 3px; padding-right: 6px;"
+/>
+`;
+
+exports[`t003 single style - should merge nested styled() styles, breakpoint: 3, windowWidth: 1679 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-bottom: 5px; padding-left: 6px; padding-right: 6px;"
+/>
+`;
+
+exports[`t003 single style - should merge nested styled() styles, breakpoint: 4, windowWidth: 1681 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-bottom: 5px; padding-left: 6px; padding-right: 6px;"
+/>
+`;
+
+exports[`t004 single style - should merge styled() and inline style and attrs 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="comp"
+    style="border-top-width: 0px;"
+  />
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1-test-id"
+    id="styled-comp-1-native-id"
+    style="border-left-width: 1px; padding-right: 10px;"
+  />
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2-test-id"
+    id="styled-comp-2-native-id"
+    style="border-right-width: 2px; padding-left: 2px; padding-right: 1px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 0, windowWidth: 374 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 3px;"
+>
+  <div
+    class="css-view-1dbjc4n"
+    style="padding-left: 12px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 0, windowWidth: 374 2`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 12px;"
+/>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 1, windowWidth: 767 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 3px;"
+>
+  <div
+    class="css-view-1dbjc4n"
+    style="padding-left: 12px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 1, windowWidth: 767 2`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 12px;"
+/>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 2, windowWidth: 1023 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 6px;"
+>
+  <div
+    class="css-view-1dbjc4n"
+    style="padding-left: 6px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 2, windowWidth: 1023 2`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 6px;"
+/>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 3, windowWidth: 1679 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 6px;"
+>
+  <div
+    class="css-view-1dbjc4n"
+    style="padding-left: 3px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 3, windowWidth: 1679 2`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 3px;"
+/>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 4, windowWidth: 1681 1`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 6px;"
+>
+  <div
+    class="css-view-1dbjc4n"
+    style="padding-left: 3px;"
+  />
+</div>
+`;
+
+exports[`t008 multiple styles - with breakpoints, breakpoint: 4, windowWidth: 1681 2`] = `
+<div
+  class="css-view-1dbjc4n"
+  style="padding-left: 3px;"
+/>
+`;
+
+exports[`t009 multiple styles - should merge nested styled() styles - no breakpoints 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 0px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 0px; padding-right: 6px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px; padding-right: 12px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`t010 multiple styles - should merge nested styled() styles - with breakpoints, breakpoint: 0, windowWidth: 374 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 0px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 0px; padding-right: 0px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px; padding-right: 0px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`t010 multiple styles - should merge nested styled() styles - with breakpoints, breakpoint: 1, windowWidth: 767 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 0px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 0px; padding-right: 3px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 3px; padding-right: 1px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`t010 multiple styles - should merge nested styled() styles - with breakpoints, breakpoint: 2, windowWidth: 1023 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 3px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 3px; padding-right: 6px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px; padding-right: 2px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`t010 multiple styles - should merge nested styled() styles - with breakpoints, breakpoint: 3, windowWidth: 1679 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 3px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 3px; padding-right: 12px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px; padding-right: 3px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`t010 multiple styles - should merge nested styled() styles - with breakpoints, breakpoint: 4, windowWidth: 1681 1`] = `
+<div
+  class="css-view-1dbjc4n"
+>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-1"
+    style="padding-left: 3px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px;"
+    />
+  </div>
+  <div
+    class="css-view-1dbjc4n"
+    data-testid="styled-comp-2"
+    style="padding-left: 3px; padding-right: 24px;"
+  >
+    <div
+      class="css-view-1dbjc4n"
+      style="padding-left: 6px; padding-right: 4px;"
+    />
+  </div>
+</div>
+`;
