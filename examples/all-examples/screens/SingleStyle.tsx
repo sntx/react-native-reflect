@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, Text } from "react-native";
-import { styled, defaultTheme } from "@lucido/reflect";
+import { styled, defaultTheme } from "react-native-reflect";
 
 // (1) Look at defaultTheme output in the console.
 //

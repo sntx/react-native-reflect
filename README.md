@@ -1,16 +1,16 @@
-<img src="https://github.com/lucidolab/reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
+<img src="https://github.com/sntx/react-native-reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
 
-# Reflect
+# React Native Reflect
 
 Responsive, theme-based style system for React Native and React Native Web
-https://lucidolab.github.io/reflect
+https://sntx.github.io/react-native-reflect
 
 [![spectrum-badge][]][spectrum]
 
 [spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
-[spectrum]: https://spectrum.chat/lucido-reflect
+[spectrum]: https://spectrum.chat/react-native-reflect
 
-**NOTE: Reflect is under active development. I'll be adding more examples, features and fixes on a daily basis, so if you're interested in the project, please stay tuned. Best way to reach me is on Spectrum chat: https://spectrum.chat/lucido-reflect**
+**NOTE: React Native Reflect is under active development. I'll be adding more examples, features and fixes on a daily basis, so if you're interested in the project, please stay tuned. Best way to reach me is on Spectrum chat: https://spectrum.chat/react-native-reflect**
 
 ## Features
 
@@ -24,23 +24,23 @@ https://lucidolab.github.io/reflect
 
 # Getting Started
 
-The following example shows how to use Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
+The following example shows how to use React Native Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
 
-![Getting Started Example](https://github.com/lucidolab/reflect/raw/master/docs/_media/getting-started-example.jpg "Getting Started Example")
+![Getting Started Example](https://github.com/sntx/react-native-reflect/raw/master/docs/_media/getting-started-example.jpg "Getting Started Example")
 
 ## Installation
 
-Create an Expo project and install Reflect:
+Create an Expo project and install React Native Reflect:
 
 ```bash
 expo init my-reflect-app
 cd my-reflect-app
 
 # with yarn
-yarn add @lucido/reflect
+yarn add react-native-reflect
 
 # with npm
-npm i @lucido/reflect
+npm i react-native-reflect
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ Replace contents of App.js or App.tsx with the code below:
 ```javascript
 import React from "react";
 import { View, SafeAreaView } from "react-native";
-import { styled, ThemeProvider, defaultTheme } from "@lucido/reflect";
+import { styled, ThemeProvider, defaultTheme } from "react-native-reflect";
 
 // (1) Define your theme
 const theme = {
@@ -112,8 +112,8 @@ npm run start
 
 # Docs
 
-- [Getting Started](https://lucidolab.github.io/reflect/#/?id=getting-started)
-- [styled()](https://lucidolab.github.io/reflect/#/?id=styled)
-- [useStyled()](https://lucidolab.github.io/reflect/#/?id=usestyled)
-- [os()](https://lucidolab.github.io/reflect/#/?id=os)
-- [Theme](https://lucidolab.github.io/reflect/#/?id=theme)
+- [Getting Started](https://sntx.github.io/react-native-reflect/#/?id=getting-started)
+- [styled()](https://sntx.github.io/react-native-reflect/#/?id=styled)
+- [useStyled()](https://sntx.github.io/react-native-reflect/#/?id=usestyled)
+- [os()](https://sntx.github.io/react-native-reflect/#/?id=os)
+- [Theme](https://sntx.github.io/react-native-reflect/#/?id=theme)

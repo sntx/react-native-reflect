@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, Text } from "react-native";
-import { useStyled, styled } from "@lucido/reflect";
+import { useStyled, styled } from "react-native-reflect";
 
 const Container = styled(View, {
   margin: 4,

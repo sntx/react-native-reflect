@@ -4,7 +4,7 @@ import { FlatList, View, Text } from "react-native";
 import { Button } from "react-native-elements";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { styled } from "@lucido/reflect";
+import { styled } from "react-native-reflect";
 import examples from "./screens";
 
 const Container = styled(View, {
@@ -72,7 +72,10 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Reflect Examples" component={HomeScreen} />
+        <Stack.Screen
+          name="React Native Reflect Examples"
+          component={HomeScreen}
+        />
         {screens}
       </Stack.Navigator>
     </NavigationContainer>

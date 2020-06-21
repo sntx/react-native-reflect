@@ -1,6 +1,6 @@
 import React from "react";
 import { View, SafeAreaView } from "react-native";
-import { styled, ThemeProvider, defaultTheme } from "@lucido/reflect";
+import { styled, ThemeProvider, defaultTheme } from "react-native-reflect";
 
 // (1) Define your theme
 const theme = {

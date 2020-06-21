@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View } from "react-native";
-import { useStyled, styled } from "@lucido/reflect";
+import { useStyled, styled } from "react-native-reflect";
 import { Button } from "react-native-elements";
 
 const Container = styled(View, {
