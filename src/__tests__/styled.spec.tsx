@@ -169,12 +169,9 @@ test("t007 multiple styles - no breakpoints", () => {
   expect($(firstChild).attr("style")).toMatch("padding-left: 5px;");
 
   // innerStyle
-  expect(
-    $(firstChild)
-      .children()
-      .first()
-      .attr("style")
-  ).toMatch("padding-left: 10px;");
+  expect($(firstChild).children().first().attr("style")).toMatch(
+    "padding-left: 10px;"
+  );
 });
 
 testBreakpoints(
@@ -202,9 +199,7 @@ testBreakpoints(
     });
     expect(firstChild).toMatchSnapshot();
 
-    const grandChild = $(firstChild)
-      .children()
-      .first()[0];
+    const grandChild = $(firstChild).children().first()[0];
 
     // innerStyle
     expect(grandChild).toHaveStyle({
