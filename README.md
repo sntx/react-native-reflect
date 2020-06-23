@@ -117,3 +117,4 @@ npm run start
 - [useStyled()](https://sntx.github.io/react-native-reflect/#/?id=usestyled)
 - [os()](https://sntx.github.io/react-native-reflect/#/?id=os)
 - [Theme](https://sntx.github.io/react-native-reflect/#/?id=theme)
+- [API / TypeScript](https://sntx.github.io/react-native-reflect/#/?id=api-typescript)
