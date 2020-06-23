@@ -7,7 +7,10 @@ include only used methods from lodash with rollup
 
 Add all unnecesary files in .npmignore (docs/ folder, etc.)
 
-Add TypeScript sectino to docsify README
+Add more badges
+  https://flat.badgen.net/
+  - minizip size without types?
+
 
 Final touches to Reflect logo, docsify home page, etc.
   Better looking animated gif showing reflect in action in multiple screens and devices

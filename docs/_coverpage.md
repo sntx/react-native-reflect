@@ -7,5 +7,9 @@
 
 > Responsive, themeable style system for React Native and React Native Web
 
+<div>
+  <pre style="background-color:white; display:inline-block; padding:7px 12px 7px 12px; border-radius: 4px;">npm i react-native-reflect</pre>
+</div>
+
 [GitHub](https://github.com/sntx/react-native-reflect)
 [Getting Started](#getting-started)

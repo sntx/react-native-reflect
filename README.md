@@ -6,19 +6,23 @@ Responsive, theme-based style system for React Native and React Native Web
 https://sntx.github.io/react-native-reflect
 
 [![spectrum-badge][]][spectrum]
+![MIT License][license]
 
 [spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
 [spectrum]: https://spectrum.chat/react-native-reflect
+[license]: https://flat.badgen.net/badge/license/MIT/blue
 
-## Features
+```sh
+npm i react-native-reflect
+```
 
-- Simplifies the process of creating universal React Native (Web) applications
-- Built from the ground up for React Native and React Native Web
-- Quickly create theme-based, responsive styles (fontSize, margin, etc.)
-- Easily make any prop responsive and platform conditional
-- Integrates nicely with other UI Libraries, such as React Native Elements
-- Provides similar functionality to Styled Components and Styled System
-- Thoroughly unit tested
+## Description
+
+**Reflect makes it easy to create universal React Native applications for Native and Web** by providing tools for **responsive styles and props**, a **theme system** and other utilities.
+
+Reflect is an alternative to libraries such as Styled Components and Styled System, built from the ground up for React Native and React Native Web. It provides exports such as: **styled()**, **useStyled()** and **ThemeProvider**, with an API that is **React Native friendly**.
+
+The library is also minimal, has no dependencies on other styling libraries and it is designed to be used alone or with other React Native UI libraries such as React Native Elements. Use it to define styling for a whole application, as the building blocks for creating your own UI library, or just as needed, to handle different screen sizes or platforms.
 
 # Getting Started
 
