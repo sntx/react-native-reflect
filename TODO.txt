@@ -1,3 +1,5 @@
+add example app to snack
+
 Create attr() method
   Add attr() method to docs and mention in styled() sections as alternative
 
@@ -32,7 +34,5 @@ add array last argument to styled()
   Styled = styled(Comp, ["space"]) adds <Styled p={0}/>
   Styled = styled(Comp, { ... }, ["space"])
   Styled = styled(Comp, { ... }, { ... }, ["space"])
-
-add example app to snack
 
 add types for remaining methods (the ones that are not exported)

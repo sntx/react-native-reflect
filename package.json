@@ -2,17 +2,24 @@
   "name": "react-native-reflect",
   "description": "Responsive, themeable style system for React Native and React Native Web",
   "author": "Santiago Ferreira",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "react-native": "lib/rn.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
-    "prebuild": "rm -rf lib",
-    "build": "rollup -c && rollup -c --environment TARGET:react-native",
+    "build:clean": "rm -rf lib",
+    "build:rollup": "rollup -c && rollup -c --environment TARGET:react-native",
+    "build:types": "cp ./src/{index,styled,theme,types,useStyled,utils}.d.ts ./lib/",
+    "build": "run-p build:rollup build:types",
     "test": "node_modules/.bin/jest",
     "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand",
     "dtslint": "dtslint --onlyTestTsNext src/__type_tests__",
-    "typedoc": "typedoc"
+    "typedoc": "typedoc",
+    "deploy": "run-s test dtslint typedoc build"
   },
   "dependencies": {
     "lodash": "^4.17.15"
@@ -34,6 +41,7 @@
     "dtslint": "^3.6.12",
     "jest-expo": "^37.0.0",
     "jquery": "^3.5.1",
+    "npm-run-all": "^4.1.5",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
@@ -50,7 +58,13 @@
     "projects": [
       {
         "preset": "jest-expo/web",
-        "moduleFileExtensions": ["js", "json", "node", "ts", "tsx"],
+        "moduleFileExtensions": [
+          "js",
+          "json",
+          "node",
+          "ts",
+          "tsx"
+        ],
         "testMatch": [
           "<rootDir>/../**/__tests__/*spec.web.*s*",
           "<rootDir>/../**/__tests__/*universal.ts"

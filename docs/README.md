@@ -140,7 +140,7 @@ Calling styled() with a single style sheet creates a styled component with a sin
 const Title = styled(Text, {
   textAlign: "center",
   fontSize: [3, 4], // 3, 4 are values from theme.fontSizes[3],
-  //                  and theme.fontSizes[4]
+                    // and theme.fontSizes[4]
 });
 ```
 
