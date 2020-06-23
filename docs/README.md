@@ -1,6 +1,6 @@
 <img src="https://github.com/sntx/react-native-reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
 
-# React Native Reflect
+# Reflect
 
 Responsive, theme-based style system for React Native and React Native Web
 https://sntx.github.io/react-native-reflect
@@ -10,13 +10,11 @@ https://sntx.github.io/react-native-reflect
 [spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
 [spectrum]: https://spectrum.chat/react-native-reflect
 
-**NOTE: React Native Reflect is under active development. I'll be adding more examples, features and fixes on a daily basis, so if you're interested in the project, please stay tuned. Best way to reach me is on Spectrum chat: https://spectrum.chat/react-native-reflect**
-
 ## Description
 
-**React Native Reflect makes it easy to create universal React Native applications for Native and Web** by providing tools for **responsive styles and props**, a **theme system** and other utilities.
+**Reflect makes it easy to create universal React Native applications for Native and Web** by providing tools for **responsive styles and props**, a **theme system** and other utilities.
 
-React Native Reflect is an alternative to libraries such as Styled Components and Styled System, built from the ground up for React Native and React Native Web. It provides exports such as: **styled()**, **useStyled()** and **ThemeProvider**, with an API that is **React Native friendly**.
+Reflect is an alternative to libraries such as Styled Components and Styled System, built from the ground up for React Native and React Native Web. It provides exports such as: **styled()**, **useStyled()** and **ThemeProvider**, with an API that is **React Native friendly**.
 
 The library is also minimal, has no dependencies on other styling libraries and it is designed to be used alone or with other React Native UI libraries such as React Native Elements. Use it to define styling for a whole application, as the building blocks for creating your own UI library or just when needed to handle different screen sizes or platforms.
 
@@ -32,13 +30,13 @@ The library is also minimal, has no dependencies on other styling libraries and 
 
 # Getting Started
 
-The following example shows how to use React Native Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
+The following example shows how to use Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
 
 ![Getting Started Example](https://github.com/sntx/react-native-reflect/raw/master/docs/_media/getting-started-example.jpg "Getting Started Example")
 
 ## Installation
 
-Create an Expo project and install React Native Reflect:
+Create an Expo project and install Reflect:
 
 ```bash
 expo init my-reflect-app
@@ -107,6 +105,7 @@ export default function App() {
   );
 }
 ```
+All examples are included in the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 Start Expo app and run it on a web browser and on a simulator. From the command line: "Press a for Android emulator, or i for iOS simulator, or w to run on web."
 
@@ -146,7 +145,7 @@ const Title = styled(Text, {
 
 ---
 
-The example below demonstrates how theme-based responsive style sheets work. Run the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples) and follow the comments in the code:
+The example below demonstrates how theme-based responsive style sheets work. Run the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples) and follow the comments in the code:
 
 ```javascript
 import * as React from "react";
@@ -202,7 +201,7 @@ const SingleStyle = ({ navigation }) => {
 export default SingleStyle;
 ```
 
-Run all examples by installing the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run all examples by installing the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 ## Multiple Styles
 
@@ -230,7 +229,7 @@ const MyButton = styled(Button, {
 
 ---
 
-The example below demonstrates how to define multiple theme-based, responsive style props. Run the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples) and follow the comments in the code:
+The example below demonstrates how to define multiple theme-based, responsive style props. Run the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples) and follow the comments in the code:
 
 ```javascript
 import * as React from "react";
@@ -273,7 +272,7 @@ const MultipleStyles = () => {
 export default MultipleStyles;
 ```
 
-Run all examples with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run all examples with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 ## Responsive Props
 
@@ -295,7 +294,7 @@ const MyButton = styled(
 );
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 # useStyled()
 
@@ -330,7 +329,7 @@ const MyComp = () => {
 };
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 ## Multiple Styles Hook
 
@@ -365,7 +364,7 @@ const MyButton = () => {
 };
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 ## Responsive Props Hook
 
@@ -389,7 +388,7 @@ const MyButton = () => {
 };
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 # os()
 
@@ -420,7 +419,7 @@ const MyButton = styled(
 );
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 ## Responsive Platform Props
 
@@ -440,7 +439,7 @@ const MyText = styled(Text, {
 });
 ```
 
-Run the example above and all other example with the [React Native Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples/all-examples)
+Run the example above and all other example with the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 # Theme
 

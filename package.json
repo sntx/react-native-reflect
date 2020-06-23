@@ -2,13 +2,31 @@
   "name": "react-native-reflect",
   "description": "Responsive, themeable style system for React Native and React Native Web",
   "author": "Santiago Ferreira",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "lib/index.js",
   "react-native": "lib/rn.js",
   "types": "lib/index.d.ts",
   "files": [
     "/lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sntx/react-native-reflect"
+  },
+  "homepage": "https://lucidolab.github.io/reflect",
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "expo",
+    "styled-system",
+    "styled-components",
+    "design-systems",
+    "style-props",
+    "responsive-design",
+    "styling",
+    "theming",
+    "universal-react"
   ],
   "scripts": {
     "build:clean": "rm -rf lib",

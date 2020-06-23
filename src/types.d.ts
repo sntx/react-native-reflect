@@ -43,7 +43,9 @@ export type ReactNativeStyles = Record<string, ReactNativeStyle>;
  * ```
  */
 export type ReflectStyle = {
-  [P in keyof ReactNativeStyle]: ReactNativeStyle[P] | ReactNativeStyle[P][];
+  [P in keyof ReactNativeStyle]:
+    | (string | number | ReactNativeStyle[P])
+    | (string | number | ReactNativeStyle[P])[];
 };
 
 /**

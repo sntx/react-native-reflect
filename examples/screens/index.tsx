@@ -1,3 +1,4 @@
+import GettingStarted from "./GettingStarted";
 import SingleStyle from "./SingleStyle";
 import MultipleStyles from "./MultipleStyles";
 import ResponsiveProps from "./ResponsiveProps";
@@ -8,7 +9,13 @@ import SingleStyleHook from "./SingleStyleHook";
 import MultipleStylesHook from "./MultipleStylesHook";
 
 const examples = {
-  styled: [
+  "Getting Started": [
+    {
+      Comp: GettingStarted,
+      title: "Getting Started Example",
+    },
+  ],
+  "styled()": [
     {
       Comp: SingleStyle,
       title: "Single Style",
@@ -22,7 +29,7 @@ const examples = {
       title: "Responsive Props",
     },
   ],
-  useStyled: [
+  "useStyled()": [
     {
       Comp: SingleStyleHook,
       title: "Single Style Hook",
@@ -36,7 +43,7 @@ const examples = {
       title: "Responsive Props Hook",
     },
   ],
-  os: [
+  "os()": [
     {
       Comp: PlatformSpecificProps,
       title: "Platform Props",

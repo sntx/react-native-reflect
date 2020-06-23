@@ -34,7 +34,7 @@ const YellowBox = styled(Box, { backgroundColor: "yellow" });
 const GreyBox = styled(Box, { backgroundColor: "grey" });
 
 // (4) Enjoy a fully responsive native/web UI with a clean markup!
-export default function App() {
+export default function GettingStarted() {
   return (
     <SafeAreaView>
       <ThemeProvider value={theme}>

@@ -3,6 +3,8 @@ add example app to snack
 Create attr() method
   Add attr() method to docs and mention in styled() sections as alternative
 
+include only used methods from lodash with rollup
+
 Add all unnecesary files in .npmignore (docs/ folder, etc.)
 
 Add TypeScript sectino to docsify README

@@ -1,6 +1,6 @@
 <img src="https://github.com/sntx/react-native-reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
 
-# React Native Reflect
+# Reflect
 
 Responsive, theme-based style system for React Native and React Native Web
 https://sntx.github.io/react-native-reflect
@@ -9,8 +9,6 @@ https://sntx.github.io/react-native-reflect
 
 [spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
 [spectrum]: https://spectrum.chat/react-native-reflect
-
-**NOTE: React Native Reflect is under active development. I'll be adding more examples, features and fixes on a daily basis, so if you're interested in the project, please stay tuned. Best way to reach me is on Spectrum chat: https://spectrum.chat/react-native-reflect**
 
 ## Features
 
@@ -24,13 +22,13 @@ https://sntx.github.io/react-native-reflect
 
 # Getting Started
 
-The following example shows how to use React Native Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
+The following example shows how to use Reflect to create theme-based responsive components. The components created will display as a single column on small screens and as two columns on larger screens.
 
 ![Getting Started Example](https://github.com/sntx/react-native-reflect/raw/master/docs/_media/getting-started-example.jpg "Getting Started Example")
 
 ## Installation
 
-Create an Expo project and install React Native Reflect:
+Create an Expo project and install Reflect:
 
 ```bash
 expo init my-reflect-app

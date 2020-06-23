@@ -43,7 +43,7 @@ function HomeScreen({ navigation }) {
     <Container>
       {_.map(examples, (section, title) => (
         <View>
-          <Title>{`${title}()`}</Title>
+          <Title>{`${title}`}</Title>
           <FlatList
             data={section}
             renderItem={({ item }) => (
@@ -72,10 +72,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="React Native Reflect Examples"
-          component={HomeScreen}
-        />
+        <Stack.Screen name="Reflect Examples" component={HomeScreen} />
         {screens}
       </Stack.Navigator>
     </NavigationContainer>

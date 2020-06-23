@@ -1,12 +1,12 @@
-# React Native Reflect Examples App
+# Reflect Examples App
 
-This app contains all the examples from the [React Native Reflect Guide](https://sntx.github.io/react-native-reflect/#/?id=guide)
+This app contains all the examples from the [Reflect Guide](https://sntx.github.io/react-native-reflect/#/?id=guide)
 
 Installation Instructions
 
 ```bash
 git clone https://github.com/sntx/react-native-reflect.git
-cd examples/all-examples
+cd examples
 
 # with yarn
 yarn

@@ -22,6 +22,7 @@ const style: ReactNativeStyle = {
 const reflectStyle: ReflectStyle = {
   padding: [0, 1, 3],
   color: "primary",
+  fontWeight: 0,
 };
 
 const reflectStyles: ReflectStyles = {

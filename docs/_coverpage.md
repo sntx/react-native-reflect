@@ -2,7 +2,7 @@
 
 <div style="margin-bottom:0px">
   <img src="_media/reflect-logo.svg" alt="logo" width="215"/>
-  <h1 style="font-size:5em; font-weight:300">React Native Reflect</h1>
+  <h1 style="font-size:5em; font-weight:300">Reflect</h1>
 </div>
 
 > Responsive, themeable style system for React Native and React Native Web
