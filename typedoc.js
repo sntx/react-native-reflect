@@ -1,6 +1,7 @@
 module.exports = {
   includes: "./src/",
   exclude: [
+    "**/lib/**/*",
     "**/__tests__/**/*",
     "**/__type_tests__/**/*",
     "**/examples/**/*",
