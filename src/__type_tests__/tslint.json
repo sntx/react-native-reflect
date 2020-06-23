@@ -1,0 +1,9 @@
+{
+  "extends": "dtslint/dtslint.json",
+  "rules": {
+    "no-useless-files": false,
+    "no-unused-locals": false,
+    "no-unused-variable": false,
+    "eofline": false
+  }
+}

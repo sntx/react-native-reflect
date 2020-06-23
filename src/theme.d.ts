@@ -1,29 +1,23 @@
-export declare const defaultTheme: {
-    colors: {
-        primary: string;
-        secondary: string;
-        red0: string;
-        red1: string;
-        red2: string;
-        red3: string;
-        light: string;
-        turq0: string;
-        turq1: string;
-    };
-    breakpoints: number[];
-    borderWidths: number[];
-    fontSizes: number[];
-    space: number[];
-    sizes: number[];
-    fonts: {
-        sans: string;
-        mono: string;
-    };
-    fontWeights: {
-        normal: string;
-        medium: number;
-        bold: string;
-    };
+import React, { Component, FunctionComponent } from "react";
+import { $PropertyType, $Values } from "utility-types";
+
+declare type FontWeight = $PropertyType<TextStyle, "fontWeight">;
+declare type BorderStyle = $PropertyType<ViewStyle, "borderStyle">;
+
+export declare type Theme = {
+  breakpoints: [number, number, number, number];
+  colors?: Record<string, string>;
+  borderWidths?: number[];
+  fontSizes?: number[];
+  space?: number[];
+  sizes?: number[];
+  fonts?: Record<string, string>;
+  fontWeights?: Record<string, FontWeight>;
+  lineHeights?: number[];
+  letterSpacings?: number[];
+  borderStyles?: Record<string, BorderStyle>;
+  radii?: number[];
+  zIndices?: number[];
 };
-export declare const ThemeContext: any;
-export declare const ThemeProvider: any;
+
+export declare const ThemeProvider: FunctionComponent<{ value: Theme }>;

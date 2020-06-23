@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": { "react-native-reflect": ["../../src"] }
+  }
+}
+
+// config taken from:
+// https://koerbitz.me/posts/unit-testing-typescript-types-with-dtslint.html
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     /* Strict Type-Checking Options */
+//     "strict": true,
+//     // "noImplicitAny": true,
+//     // "strictNullChecks": true,
+//     // "strictFunctionTypes": true,
+//     // "noImplicitThis": true,
+//     // "alwaysStrict": true,
+//     /* Additional Checks */
+//     /* next line commented out because we need unused vars for type tests */
+//     // "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "noImplicitReturns": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "lib": ["es5"],
+//     /* dtslint needs these to operate in this directory */
+//     "baseUrl": "."
+//     // "paths": { "home": ["../../src"] }
+//   }
+// }

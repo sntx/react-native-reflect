@@ -98,20 +98,24 @@ export const getWindowWidth = () => Dimensions.get("window").width;
  */
 export const useWindowDimensions = () => {
   const { width, height } = Dimensions.get("window");
+
   const [dimensions, setDimensions] = useState({
     width,
     height,
     aspectRatio: width / height,
   });
+
   const onChange = ({ window: { width, height } }) => {
     setDimensions({ width, height, aspectRatio: width / height });
   };
+
   useEffect(() => {
     Dimensions.addEventListener("change", onChange);
     return () => {
       Dimensions.removeEventListener("change", onChange);
     };
   });
+
   return dimensions;
 };
 /**

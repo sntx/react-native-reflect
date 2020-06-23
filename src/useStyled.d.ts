@@ -1,28 +1,20 @@
-import { ViewStyle, TextStyle, ImageStyle } from "react-native";
-import { $Keys, $Values } from "utility-types";
+import {
+  ReflectStyle,
+  ReflectStyles,
+  ReactNativeStyle,
+  ReactNativeStyles,
+} from "./types";
 
-type NamedStyles<T> = { [P in keyof T]: ViewStyle | TextStyle | ImageStyle };
-type NamedStylesKeys = $Keys<NamedStyles>;
-type NamedStylesValues = $Values<NamedStyles>;
-type TextStyleKeys = $Keys<TextStyle>;
-
-type RNStyle = ViewStyle & TextStyle & ImageStyle;
-
-// STODONEXT
-// https://github.com/vhpoet/react-native-styling-cheat-sheet
-type ReflectStyle = {
-  [P in keyof RNStyle]: RNStyle[P] | (string | number)[];
-};
-
-declare const _default: ({
+export default function useStyled<A extends Record<string, any>>({
   style,
+  styles,
+  attrs,
 }: {
-  style: ReflectStyle;
-}) => {
-  style: React<string, string>;
+  style?: ReflectStyle;
+  styles?: ReflectStyles;
+  attrs?: A;
+}): {
+  style: ReactNativeStyle;
+  styles: ReactNativeStyles;
+  attrs: { [P in keyof A]: any };
 };
-
-/**
- * React hook for responsive styles
- */
-export default _default;

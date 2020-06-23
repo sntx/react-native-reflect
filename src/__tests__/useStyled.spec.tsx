@@ -75,14 +75,3 @@ testBreakpoints(
     expect(firstChild).toMatchSnapshot();
   }
 );
-
-// STODONEXT
-const deleteme = () => {
-  const { style } = useStyled({
-    style: {
-      fontSize: 4,
-      flex: 1,
-      resizeMode: "cover",
-    },
-  });
-};

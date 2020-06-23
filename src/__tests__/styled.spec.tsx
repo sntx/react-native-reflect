@@ -7,7 +7,6 @@ import { Text, View, ViewProps, StyleProp, ViewStyle } from "react-native";
 import "@testing-library/jest-dom";
 import styled from "../styled";
 
-// STODO move renderWithTheme inside this package
 import { renderWithTheme, testBreakpoints } from "../testsUtils";
 
 testBreakpoints("t001 single style - no breakpoints", () => {

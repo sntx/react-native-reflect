@@ -1,0 +1,14 @@
+Create attr() method
+
+Add os([]) methods
+
+Rename all STODO to TODO
+
+add all unnecesary files in .npmignore (docs/ folder, etc.)
+
+TypeDoc
+  use typedoc library mode once it's merged
+    https://github.com/TypeStrong/typedoc/pull/1184
+
+  use typedoc with markdown
+    npx typedoc --plugin typedoc-plugin-markdown
