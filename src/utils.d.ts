@@ -2,7 +2,7 @@
  * React hook for keeping track of window's dimensions and window resize
  * changes.
  */
-export declare const useWindowDimensions: () => {
+export declare function useWindowDimensions(): {
   width: number;
   height: number;
   aspectRatio: number;

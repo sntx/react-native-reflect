@@ -11,7 +11,8 @@
     "build": "rollup -c && rollup -c --environment TARGET:react-native",
     "test": "node_modules/.bin/jest",
     "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js --runInBand",
-    "dtslint": "dtslint --onlyTestTsNext src/__type_tests__"
+    "dtslint": "dtslint --onlyTestTsNext src/__type_tests__",
+    "typedoc": "typedoc"
   },
   "dependencies": {
     "lodash": "^4.17.15"
@@ -41,7 +42,6 @@
     "rollup": "^2.17.1",
     "rollup-plugin-babel": "3.0.7",
     "typedoc": "^0.17.7",
-    "typedoc-plugin-markdown": "^2.3.1",
     "typescript": "^3.9.5",
     "utility-types": "^3.10.0"
   },

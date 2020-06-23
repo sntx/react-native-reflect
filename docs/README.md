@@ -546,3 +546,23 @@ const App = () => (
   </ThemeProvider>
 );
 ```
+
+# API / TypeScript
+
+Reflect provides types for it's own methods, components and objects, along with other types which can be useful when working with React Native and Reflect.
+
+## Objects
+- [ReflectStyle](https://sntx.github.io/react-native-reflect/typedoc/index.html#reflectstyle)
+- [ReflectStyles](https://sntx.github.io/react-native-reflect/typedoc/index.html#reflectstyles)
+- [Theme](https://sntx.github.io/react-native-reflect/typedoc/index.html#theme)
+- [ReactNativeStyle](https://sntx.github.io/react-native-reflect/typedoc/index.html#reactnativestyle)
+- [ReactNativeStyles](https://sntx.github.io/react-native-reflect/typedoc/index.html#reactnativestyles)
+
+## Components
+- [ThemepPovider](https://sntx.github.io/react-native-reflect/typedoc/index.html#themeprovider)
+
+## Methods
+- [styled()](https://sntx.github.io/react-native-reflect/typedoc/index.html#styled)
+- [useStyled()](https://sntx.github.io/react-native-reflect/typedoc/index.html#usestyled)
+- [os()](https://sntx.github.io/react-native-reflect/typedoc/index.html#os)
+- [useWindowDimensions()](https://sntx.github.io/react-native-reflect/typedoc/index.html#usewindowdimensions)

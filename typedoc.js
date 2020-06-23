@@ -1,7 +1,16 @@
 module.exports = {
-  inputFiles: ["./src/index.d.ts"],
-  mode: "modules",
-  out: "typedoc",
-  includeDeclarations: "true",
-  excludeExternals: "true",
+  includes: "./src/",
+  exclude: [
+    "**/__tests__/**/*",
+    "**/__type_tests__/**/*",
+    "**/examples/**/*",
+    "**/testsUtils.d.ts",
+  ],
+  mode: "file",
+  out: "docs/typedoc",
+  readme: "none",
+  includeDeclarations: true,
+  excludeExternals: true,
+  excludeNotExported: true,
+  excludePrivate: true,
 };

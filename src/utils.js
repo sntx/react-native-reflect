@@ -92,10 +92,11 @@ export const getStretchIndex = (
 };
 
 export const getWindowWidth = () => Dimensions.get("window").width;
+
 /**
  * React hook for keeping track of window's dimensions and window resize changes.
  */
-export const useWindowDimensions = () => {
+export function useWindowDimensions() {
   const { width, height } = Dimensions.get("window");
 
   const [dimensions, setDimensions] = useState({
@@ -116,7 +117,7 @@ export const useWindowDimensions = () => {
   });
 
   return dimensions;
-};
+}
 
 /**
  * Selects value based on platform.
