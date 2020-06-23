@@ -1,10 +1,22 @@
 Create attr() method
+  Add attr() method to docs and mention in styled() sections as alternative
 
-Add os([]) methods
+Add all unnecesary files in .npmignore (docs/ folder, etc.)
 
-Rename all STODO to TODO
+Add TypeScript sectino to docsify README
 
-add all unnecesary files in .npmignore (docs/ folder, etc.)
+Final touches to Reflect logo, docsify home page, etc.
+  Better looking animated gif showing reflect in action in multiple screens and devices
+    - rotating phone
+    - tablets
+    - desktop
+    - etc
+
+Copy docs to lib/ on build
+
+// TODO: add this to docs: For typescript to work properly, typecast theme
+// object... breakpoints has type number[] and Theme.breakpoints has type
+// [number, number, number, number]
 
 TypeDoc
   use typedoc library mode once it's merged
@@ -12,3 +24,15 @@ TypeDoc
 
   use typedoc with markdown
     npx typedoc --plugin typedoc-plugin-markdown
+
+
+change signature of usedStyled so it matches styled()
+
+add array last argument to styled()
+  Styled = styled(Comp, ["space"]) adds <Styled p={0}/>
+  Styled = styled(Comp, { ... }, ["space"])
+  Styled = styled(Comp, { ... }, { ... }, ["space"])
+
+add example app to snack
+
+add types for remaining methods (the ones that are not exported)

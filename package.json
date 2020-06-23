@@ -50,15 +50,28 @@
     "projects": [
       {
         "preset": "jest-expo/web",
-        "moduleFileExtensions": [
-          "js",
-          "json",
-          "node",
-          "ts",
-          "tsx"
-        ],
+        "moduleFileExtensions": ["js", "json", "node", "ts", "tsx"],
         "testMatch": [
-          "<rootDir>/../**/__tests__/**/*spec.*s*"
+          "<rootDir>/../**/__tests__/*spec.web.*s*",
+          "<rootDir>/../**/__tests__/*universal.ts"
+        ]
+      },
+      {
+        "preset": "jest-expo/ios",
+        "testMatch": [
+          "<rootDir>/../**/__tests__/*universal.ts"
+        ]
+      },
+      {
+        "preset": "jest-expo/android",
+        "testMatch": [
+          "<rootDir>/../**/__tests__/*universal.ts"
+        ]
+      },
+      {
+        "preset": "jest-expo/node",
+        "testMatch": [
+          "<rootDir>/../**/__tests__/*universal.ts"
         ]
       }
     ]

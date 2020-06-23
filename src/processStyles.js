@@ -47,7 +47,6 @@ const processSingleStylePropVal = (singleStylePropVal, themePropVal) => {
 const isValidStylePropValArray = (stylePropValArray, theme) => {
   const propertyValSize = _.size(stylePropValArray);
   if (propertyValSize > _.size(theme.breakpoints) + 1) {
-    // STODO throw error instead of console.error
     console.error(
       "propertyVal should not have more elements than theme breakpoints",
       stylePropValArray

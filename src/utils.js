@@ -60,7 +60,6 @@ export const getStretchIndex = (
   breakpointsSize = 4
 ) => {
   if (breakpointsSize !== 4) {
-    console.error("STODO: only breakpoints with size 4 is supported now");
     return 0;
   }
 
@@ -118,6 +117,7 @@ export const useWindowDimensions = () => {
 
   return dimensions;
 };
+
 /**
  * Selects value based on platform.
  *

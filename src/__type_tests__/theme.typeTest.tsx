@@ -29,9 +29,6 @@ const testTheme = () => {
     fontSizes: [10, 20, "tsError"],
   };
 
-  // TODO: add this to docs: For typescript to work properly, typecast theme
-  // object... breakpoints has type number[] and Theme.breakpoints has type
-  // [number, number, number, number]
   const validTheme: Theme = {
     breakpoints: [300, 600, 900, 1200],
     colors: { primary: "blue", secondary: "white" },
