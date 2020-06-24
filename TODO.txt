@@ -1,3 +1,5 @@
+Add docs page title and icon, right now the title is "Document"
+
 Final touches to Reflect logo, docsify home page, etc.
   Better looking animated gif showing reflect in action in multiple screens and devices
     - rotating phone
