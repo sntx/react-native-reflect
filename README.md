@@ -1,16 +1,17 @@
 <img src="https://github.com/sntx/react-native-reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
 
-# Reflect
+# React Native Reflect
 
 Responsive, theme-based style system for React Native and React Native Web
 https://sntx.github.io/react-native-reflect
 
 [![spectrum-badge][]][spectrum]
 ![MIT License][license]
+[![Types](https://img.shields.io/npm/types/scrub-js.svg)](https://www.npmjs.com/package/react-native-reflect)
 
-[spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
+[spectrum-badge]: https://badgen.net/badge/spectrum/community/cyan
 [spectrum]: https://spectrum.chat/react-native-reflect
-[license]: https://flat.badgen.net/badge/license/MIT/blue
+[license]: https://badgen.net/badge/license/MIT/blue
 
 ```sh
 npm i react-native-reflect

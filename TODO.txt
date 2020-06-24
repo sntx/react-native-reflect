@@ -1,17 +1,3 @@
-add example app to snack
-
-Create attr() method
-  Add attr() method to docs and mention in styled() sections as alternative
-
-include only used methods from lodash with rollup
-
-Add all unnecesary files in .npmignore (docs/ folder, etc.)
-
-Add more badges
-  https://flat.badgen.net/
-  - minizip size without types?
-
-
 Final touches to Reflect logo, docsify home page, etc.
   Better looking animated gif showing reflect in action in multiple screens and devices
     - rotating phone
@@ -19,25 +5,25 @@ Final touches to Reflect logo, docsify home page, etc.
     - desktop
     - etc
 
-Copy docs to lib/ on build
+Include only used methods from lodash with rollup
+  https://rollupjs.org/guide/en/#tree-shaking
+  https://lodash.com/per-method-packages
+  or remove lodash alltogether?
 
-// TODO: add this to docs: For typescript to work properly, typecast theme
-// object... breakpoints has type number[] and Theme.breakpoints has type
-// [number, number, number, number]
+Add example app to snack
+  https://snack.expo.io/@sntx/b5d446
 
-TypeDoc
-  use typedoc library mode once it's merged
-    https://github.com/TypeStrong/typedoc/pull/1184
+Create attr() method
+  Add attr() method to docs and mention in styled() sections as alternative
 
-  use typedoc with markdown
-    npx typedoc --plugin typedoc-plugin-markdown
+Add more badges
+  https://flat.badgen.net/
+  - minizip size without types? (only lib/rn.js should be included)
 
-
-change signature of usedStyled so it matches styled()
-
-add array last argument to styled()
+Add array last argument to styled()
   Styled = styled(Comp, ["space"]) adds <Styled p={0}/>
   Styled = styled(Comp, { ... }, ["space"])
   Styled = styled(Comp, { ... }, { ... }, ["space"])
 
-add types for remaining methods (the ones that are not exported)
+Add types for remaining methods (the ones that are not exported)
+  so unit tests types work

@@ -1,15 +1,16 @@
 <img src="https://github.com/sntx/react-native-reflect/raw/master/docs/_media/reflect-logo-color.svg" alt="logo" width="180"/>
 
-# Reflect
+# React Native Reflect
 
 Responsive, theme-based style system for React Native and React Native Web
 
 [![spectrum-badge][]][spectrum]
 ![MIT License][license]
+[![Types](https://img.shields.io/npm/types/scrub-js.svg)](https://www.npmjs.com/package/react-native-reflect)
 
-[spectrum-badge]: https://flat.badgen.net/badge/spectrum/community/cyan
+[spectrum-badge]: https://badgen.net/badge/spectrum/community/cyan
 [spectrum]: https://spectrum.chat/react-native-reflect
-[license]: https://flat.badgen.net/badge/license/MIT/blue
+[license]: https://badgen.net/badge/license/MIT/blue
 
 ```sh
 npm i react-native-reflect
@@ -109,6 +110,7 @@ export default function App() {
   );
 }
 ```
+
 All examples are included in the [Reflect Examples Expo App](https://github.com/sntx/react-native-reflect/blob/master/examples)
 
 Start Expo app and run it on a web browser and on a simulator. From the command line: "Press a for Android emulator, or i for iOS simulator, or w to run on web."
@@ -143,7 +145,7 @@ Calling styled() with a single style sheet creates a styled component with a sin
 const Title = styled(Text, {
   textAlign: "center",
   fontSize: [3, 4], // 3, 4 are values from theme.fontSizes[3],
-                    // and theme.fontSizes[4]
+  // and theme.fontSizes[4]
 });
 ```
 
@@ -555,6 +557,7 @@ const App = () => (
 Reflect provides types for it's own methods, components and objects, along with other types which can be useful when working with React Native and Reflect.
 
 ## Objects
+
 - [ReflectStyle](https://sntx.github.io/react-native-reflect/typedoc/index.html#reflectstyle)
 - [ReflectStyles](https://sntx.github.io/react-native-reflect/typedoc/index.html#reflectstyles)
 - [Theme](https://sntx.github.io/react-native-reflect/typedoc/index.html#theme)
@@ -562,9 +565,11 @@ Reflect provides types for it's own methods, components and objects, along with 
 - [ReactNativeStyles](https://sntx.github.io/react-native-reflect/typedoc/index.html#reactnativestyles)
 
 ## Components
-- [ThemepPovider](https://sntx.github.io/react-native-reflect/typedoc/index.html#themeprovider)
+
+- [ThemeProvider](https://sntx.github.io/react-native-reflect/typedoc/index.html#themeprovider)
 
 ## Methods
+
 - [styled()](https://sntx.github.io/react-native-reflect/typedoc/index.html#styled)
 - [useStyled()](https://sntx.github.io/react-native-reflect/typedoc/index.html#usestyled)
 - [os()](https://sntx.github.io/react-native-reflect/typedoc/index.html#os)
