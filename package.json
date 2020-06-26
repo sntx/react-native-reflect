@@ -2,7 +2,7 @@
   "name": "react-native-reflect",
   "description": "Responsive, themeable style system for React Native and React Native Web",
   "author": "Santiago Ferreira",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "lib/index.js",
   "react-native": "lib/rn.js",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/sntx/react-native-reflect"
   },
-  "homepage": "https://lucidolab.github.io/reflect",
+  "homepage": "https://sntx.github.io/react-native-reflect",
   "keywords": [
     "react-native",
     "react-native-web",

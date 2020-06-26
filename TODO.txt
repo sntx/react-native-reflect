@@ -1,3 +1,7 @@
+Fix types for styled(Image, {}) with react-native Image
+
+Fix warnings on iOS simulator, etc.
+
 Add docs page title and icon, right now the title is "Document"
 
 Final touches to Reflect logo, docsify home page, etc.
