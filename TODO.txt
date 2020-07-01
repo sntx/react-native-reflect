@@ -1,4 +1,8 @@
+Add radii to default theme
+Fix types for styled(FlatList, {}, {}) with react-native FlatList
 Fix types for styled(Image, {}) with react-native Image
+
+Make better defaultTheme and use it in a more complete example in examples app
 
 Fix warnings on iOS simulator, etc.
 
@@ -33,3 +37,11 @@ Add array last argument to styled()
 
 Add types for remaining methods (the ones that are not exported)
   so unit tests types work
+
+
+Add function as props?
+styled(TouchableOpacity, ({ active }) => {
+ padding: 5,
+ backgroundColor: active ? "red" : null,
+})
+

@@ -26,11 +26,6 @@ const getThemePropVal = (stylePropKey, theme) => {
  * Process single value of property, ex: 0, "100%", "5px", etc.
  */
 const processSingleStylePropVal = (singleStylePropVal, themePropVal) => {
-  if (!_.isNumber(singleStylePropVal) && !_.isString(singleStylePropVal)) {
-    console.error("propertyVal should be a number or string");
-    return;
-  }
-
   // non-themed value (ex: flex=1) -> return as it is
   if (themePropVal === PROPERTY_CONFIG_NOT_IN_THEME) return singleStylePropVal;
 
