@@ -2,6 +2,13 @@ Add radii to default theme
 Fix types for styled(FlatList, {}, {}) with react-native FlatList
 Fix types for styled(Image, {}) with react-native Image
 
+add variants (for dark theme, etc)
+
+add color arrays (look at ui kitten colors: https://akveo.github.io/react-native-ui-kitten/docs/design-system/eva-light-theme)
+  material ui colors are also good
+
+add decimal points for theme indices, for example: 1.5
+
 Make better defaultTheme and use it in a more complete example in examples app
 
 Fix warnings on iOS simulator, etc.
