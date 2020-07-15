@@ -1,19 +1,20 @@
-Add radii to default theme
-Fix types for styled(FlatList, {}, {}) with react-native FlatList
-Fix types for styled(Image, {}) with react-native Image
-
-add variants (for dark theme, etc)
-
-add color arrays (look at ui kitten colors: https://akveo.github.io/react-native-ui-kitten/docs/design-system/eva-light-theme)
-  material ui colors are also good
-
-add decimal points for theme indices, for example: 1.5
-
-Make better defaultTheme and use it in a more complete example in examples app
-
 Fix warnings on iOS simulator, etc.
 
 Add docs page title and icon, right now the title is "Document"
+
+Add radii to default theme
+
+Fix types for styled(FlatList, {}, {}) with react-native FlatList
+
+Fix types for styled(Image, {}) with react-native Image
+
+Add variants, <StyledButton variant="solid"/>, <StyledButton variant="outline"/>
+
+Make better defaultTheme and use it in a more complete example in examples app
+  Add color arrays (look at ui kitten colors: https://akveo.github.io/react-native-ui-kitten/docs/design-system/eva-light-theme)
+    material ui colors are also good
+
+Add decimal points for theme indices, for example: 1.5
 
 Final touches to Reflect logo, docsify home page, etc.
   Better looking animated gif showing reflect in action in multiple screens and devices
@@ -45,10 +46,9 @@ Add array last argument to styled()
 Add types for remaining methods (the ones that are not exported)
   so unit tests types work
 
-
 Add function as props?
+
 styled(TouchableOpacity, ({ active }) => {
  padding: 5,
  backgroundColor: active ? "red" : null,
 })
-
