@@ -42,10 +42,11 @@ function HomeScreen({ navigation }) {
   return (
     <Container>
       {_.map(examples, (section, title) => (
-        <View>
+        <View key={title}>
           <Title>{`${title}`}</Title>
           <FlatList
             data={section}
+            keyExtractor={(section) => section.key}
             renderItem={({ item }) => (
               <Link title={item.title} navigation={navigation} />
             )}
@@ -61,9 +62,13 @@ const Stack = createStackNavigator();
 const screens = _.flatten(
   _.map(examples, (section) =>
     _.map(section, (example) => (
-      <Stack.Screen name={example.title} component={example.Comp} />
-    ))
-  )
+      <Stack.Screen
+        name={example.title}
+        component={example.Comp}
+        key={example.title}
+      />
+    )),
+  ),
 );
 
 console.log("screens", screens);
